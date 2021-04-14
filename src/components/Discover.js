@@ -20,7 +20,7 @@ const Discover = () => {
           return (
             <div key={id} className="relative">
               <img src={image} alt={title} className="" />
-              <h4 className="absolute -bottom-20 lg:-bottom-0 z-10 font-bold text-white text-2xl text-center">
+              <h4 className="absolute z-10 font-bold text-white text-2xl text-center">
                 {title}
               </h4>
               <p>{desc}</p>
