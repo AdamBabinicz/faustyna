@@ -50,9 +50,9 @@ body {
 }
 
 .discover h4 {
-  top: 10%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -10%);
+  transform: translate(-50%, -30%);
   font-family: "Poiret One", cursive;
 }
 
