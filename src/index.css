@@ -1,13 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Bungee+Hairline&family=Bungee+Outline&family=Cormorant+Unicase:wght@300&family=Dancing+Script&family=IM+Fell+English+SC&family=Kumar+One+Outline&family=Megrim&family=Monofett&family=Poiret+One&family=Ribeye+Marrow&family=Shadows+Into+Light&family=Srisakdi&family=Train+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Kanit", sans-serif;
+  scroll-behavior: smooth;
+}
+.showcase {
+  height: 500px;
+  background: url("./images/1.jpg") no-repeat top/cover;
+}
+.showcase h1 {
+  font-family: "Kumar One Outline", cursive;
+  color: "gray";
+}
+.showcase .overlay {
+  height: 500px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (min-width: 600px) {
+  .showcase {
+    height: 600px;
+  }
+  .showcase .overlay {
+    height: 600px;
+  }
+  .home {
+    height: 600px;
+  }
+  .home .overlay {
+    height: 600px;
+  }
 }
+
+@media (min-width: 1024px) {
+  .home {
+    height: 600px;
+    background: url("./images/9.jpg") no-repeat center/cover;
+  }
+
+  .home .overlay {
+    height: 600px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.discover h4 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poiret One", cursive;
+}
+
+/* font-family: 'Allura', cursive;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Cormorant Unicase', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'IM Fell English SC', serif;
+font-family: 'Kumar One Outline', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Srisakdi', cursive;
+font-family: 'Train One', cursive; */
