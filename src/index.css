@@ -52,7 +52,7 @@ body {
 .discover h4 {
   top: 10%;
   left: 50%;
-  transform: translate(-50%, -0%);
+  transform: translate(-50%, -10%);
   font-family: "Poiret One", cursive;
 }
 
