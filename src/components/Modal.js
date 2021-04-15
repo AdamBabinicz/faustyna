@@ -25,7 +25,7 @@ const ModalWrapper = styled.div`
   grid-gap: 2rem;
   /* grid-template-columns: repeat(2, 1fr); */
   position: relative;
-  z-index: 100;
+  z-index: 10;
   border-radius: 10px;
   overflow: hidden;
 
