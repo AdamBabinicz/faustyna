@@ -58,9 +58,9 @@ body {
 
 @media (max-width: 640px) {
   .discover h4 {
-    top: 15%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -15%);
+    transform: translate(-50%, -10%);
   }
 }
 /* font-family: 'Allura', cursive;
