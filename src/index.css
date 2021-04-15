@@ -50,12 +50,19 @@ body {
 }
 
 .discover h4 {
-  top: 25%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -25%);
+  transform: translate(-50%, -30%);
   font-family: "Poiret One", cursive;
 }
 
+@media (max-width: 640px) {
+  .discover h4 {
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+  }
+}
 /* font-family: 'Allura', cursive;
 font-family: 'Bungee Hairline', cursive;
 font-family: 'Bungee Outline', cursive;
