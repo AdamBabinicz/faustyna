@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import homeImg from "../images/9.jpg";
+import { Modal } from "./Modal";
 
-const Home = () => {
+function Home() {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal((prev) => !prev);
+  };
   return (
     <>
       <section className="home mb-10">
+        <Modal showModal={showModal} setShowModal={setShowModal} />
         <div className="overlay py-10 px-5 lg:grid lg:grid-cols-2 lg:items-center lg:gap-5 lg:text-white lg:px-40">
           <div>
             <img src={homeImg} alt="..." />
@@ -31,7 +38,10 @@ const Home = () => {
             <p className="italic text-sm">
               https://pl.wikipedia.org/wiki/Faustyna_Kowalska
             </p>
-            <button className="bg-black px-4 py-2 mt-4 text-white border transition-colors hover:bg-white hover:text-black lg:bg-white lg:text-black lg:hover:bg-black lg:hover:text-white">
+            <button
+              onClick={openModal}
+              className="bg-black px-4 py-2 mt-4 text-white border transition-colors hover:bg-white hover:text-black lg:bg-white lg:text-black lg:hover:bg-black lg:hover:text-white"
+            >
               Czytaj więcej
             </button>
           </div>
@@ -39,6 +49,6 @@ const Home = () => {
       </section>
     </>
   );
-};
+}
 
 export default Home;
