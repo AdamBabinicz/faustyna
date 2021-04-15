@@ -24,7 +24,7 @@ const Discover = () => {
                 {title}
               </h4>
               <p className="mt-4">{desc}</p>
-              <p className="italic text-sm">{par}</p>
+              <p className="italic text-sm mt-4">{par}</p>
             </div>
           );
         })}
