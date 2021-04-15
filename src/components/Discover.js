@@ -23,7 +23,7 @@ const Discover = () => {
               <h4 className="absolute z-10 font-bold text-white text-2xl text-center">
                 {title}
               </h4>
-              <p>{desc}</p>
+              <p className="mt-4">{desc}</p>
               <p className="italic text-sm">{par}</p>
             </div>
           );
