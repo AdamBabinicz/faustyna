@@ -75,7 +75,7 @@ function Home() {
                 },
               }}
             >
-              <h2 className="text-center text-2xl mt-4 mb-6">
+              <h2 className="text-center font-bold lg:text-2xl sm:text-xl mt-4 mb-6">
                 Objawienia i mistyczne przeżycia
               </h2>
               <p className="lg:px-10 sm:px-2">
@@ -101,7 +101,7 @@ function Home() {
                 Bożego Miłosierdzia [5].
               </p>
               <br />
-              <p className="px-10">
+              <p className="lg:px-10 sm:px-2">
                 Objawienia, których doznała święta, dotyczyły przede wszystkim
                 roli Miłosierdzia Bożego w&nbsp;życiu duchowym człowieka oraz
                 szerzenia kultu tego przymiotu [16][4]. Jezus uczynił Faustynę
@@ -118,7 +118,7 @@ function Home() {
                 Miała doznawać ataków złych sił nadprzyrodzonych [22].
               </p>
               <br />
-              <p className="px-10">
+              <p className="lg:px-10 sm:px-2">
                 Kluczowe objawienie miało miejsce 22 lutego 1931 roku, w płockim
                 Sanktuarium Miłosierdzia Bożego. Jezus polecił jej wtedy
                 namalowanie obrazu z&nbsp;podpisem: „Jezu, ufam Tobie”. Według
