@@ -10,7 +10,7 @@ const Future = () => {
           <img src={future} alt="..." />
         </div>
         <div>
-          <h4 className="font-bold mb-2 text-2xl">
+          <h4 className="font-bold mb-2 text-2xl mt-2">
             Dom rodzinny we wsi Głogowiec
           </h4>
           <p className="mb-5">
@@ -32,10 +32,10 @@ const Future = () => {
           </button>
         </div>
         <div>
-          <img src={dom} alt="..." />
+          <img src={dom} alt="..." className="mt-2" />
         </div>
         <div>
-          <h4 className="font-bold mb-2 text-2xl">
+          <h4 className="font-bold mb-2 text-2xl mt-2">
             Wnętrze domu rodzinnego św. Faustyny
           </h4>
           <p className="mb-5">
