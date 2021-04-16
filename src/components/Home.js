@@ -78,7 +78,7 @@ function Home() {
               <h2 className="text-center text-2xl mt-4 mb-6">
                 Objawienia i mistyczne przeżycia
               </h2>
-              <p className="px-10">
+              <p className="lg:px-10 sm:px-2">
                 Na polecenie jednego ze swoich spowiedników, ks. Michała
                 Sopoćki, Faustyna zaczęła prowadzić szczegółowy zapis swoich
                 przeżyć, znany potem jako Dzienniczek. Opisywała w nim
