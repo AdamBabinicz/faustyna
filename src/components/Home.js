@@ -133,7 +133,7 @@ function Home() {
               </p>
               <div>
                 <button onClick={() => setModalIsOpen(false)}>
-                  <MdClose className="absolute right-3 top-6" />
+                  <MdClose className="absolute right-3 top-6 text-2xl" />
                 </button>
               </div>
             </Modal>
