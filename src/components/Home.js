@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import homeImg from "../images/9.jpg";
-import { Modal } from "./Modal";
+import Modal from "react-modal";
+// import { Modal } from "./Modal";
+// import Modal from "../components/modal/Modal";
 
 function Home() {
-  const [showModal, setShowModal] = useState(false);
-
-  const openModal = () => {
-    setShowModal((prev) => !prev);
-  };
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  // const openModal = () => {
+  //   setShowModal((prev) => !prev);
+  // };
   return (
     <>
       <section className="home mb-10">
-        <Modal showModal={showModal} setShowModal={setShowModal} />
         <div className="overlay py-10 px-5 lg:grid lg:grid-cols-2 lg:items-center lg:gap-5 lg:text-white lg:px-40">
           <div>
             <img src={homeImg} alt="..." />
@@ -39,11 +39,22 @@ function Home() {
               https://pl.wikipedia.org/wiki/Faustyna_Kowalska
             </p>
             <button
-              onClick={openModal}
+              onClick={() => setModalIsOpen(true)}
               className="bg-black px-4 py-2 mt-4 text-white border transition-colors hover:bg-white hover:text-black lg:bg-white lg:text-black lg:hover:bg-black lg:hover:text-white"
             >
               Czytaj więcej
             </button>
+            <Modal
+              isOpen={modalIsOpen}
+              shouldCloseOnOverlayClick={false}
+              onRequestClose={() => setModalIsOpen(false)}
+            >
+              <h2>Tytuł</h2>
+              <p>Body modal</p>
+              <div>
+                <button onClick={() => setModalIsOpen(false)}>Close</button>
+              </div>
+            </Modal>
           </div>
         </div>
       </section>
