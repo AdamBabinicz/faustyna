@@ -32,7 +32,7 @@ const Future = () => {
           </button>
         </div>
         <div>
-          <img src={dom} alt="..." className="mt-2" />
+          <img src={dom} alt="..." className="mt-6" />
         </div>
         <div>
           <h4 className="font-bold mb-2 text-2xl mt-2">
