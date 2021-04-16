@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useCallback } from "react";
 import { useSpring, animated } from "react-spring";
-import styled from "styled-components";
+// import styled from "styled-components";
 import { MdClose } from "react-icons/md";
 import img1 from "../images/20.jpg";
 
