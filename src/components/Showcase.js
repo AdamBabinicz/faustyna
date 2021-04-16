@@ -75,7 +75,7 @@ function Showcase() {
               podkreślone słowa Jezusa, co w wydaniach książkowych zostało
               zaznaczone tłustym drukiem lub kursywą. Rękopis Dzienniczka
               przechowywany jest w&nbsp;klasztorze Sióstr Matki Bożej
-              Miłosierdzia w Łagiewnikach w&nbsp;Krakowie [1].
+              Miłosierdzia w&nbsp;Łagiewnikach w&nbsp;Krakowie [1].
             </p>
             <br />
             <p className="lg:px-10 sm:px-2 lg:text-left sm:text-justify">
