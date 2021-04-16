@@ -2,15 +2,11 @@ import React, { useState } from "react";
 import homeImg from "../images/9.jpg";
 import Modal from "react-modal";
 import { MdClose } from "react-icons/md";
-// import { Modal } from "./Modal";
-// import Modal from "../components/modal/Modal";
 
 Modal.setAppElement("#root");
 function Home() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  // const openModal = () => {
-  //   setShowModal((prev) => !prev);
-  // };
+
   return (
     <>
       <section className="home mb-10">
@@ -78,20 +74,21 @@ function Home() {
               <h2 className="text-center font-bold lg:text-2xl sm:text-xl mt-4 mb-6">
                 Objawienia i mistyczne przeżycia
               </h2>
-              <p className="lg:px-10 sm:px-2">
+              <p className="lg:px-10 sm:px-2 lg:text-left sm:text-justify">
                 Na polecenie jednego ze swoich spowiedników, ks. Michała
                 Sopoćki, Faustyna zaczęła prowadzić szczegółowy zapis swoich
                 przeżyć, znany potem jako Dzienniczek. Opisywała w nim
                 cierpienia i&nbsp;przeciwności, stany mistyczne jakich
-                doznawała, przede wszystkim liczne wizje i objawienia. Dotyczyły
-                one między innymi namalowania obrazu Jezu ufam Tobie (do którego
-                Jezus miał dać szczegółowe wskazówki), modlitw Koronki do
-                Miłosierdzia Bożego i Godziny Miłosierdzia [17], ustanowienia
-                święta Miłosierdzia Bożego (w pierwszą niedzielę po Wielkanocy),
-                szerzenia czci Miłosierdzia i obietnic z nim związanych, oraz
-                powołania do życia nowego zgromadzenia, czyli takiego dzieła w
-                Kościele, które by podjęło zadanie wypraszania miłosierdzia dla
-                świata (Apostolski Ruch Bożego Miłosierdzia). Zapisała również
+                doznawała, przede wszystkim liczne wizje i&nbsp;objawienia.
+                Dotyczyły one między innymi namalowania obrazu Jezu ufam Tobie
+                (do którego Jezus miał dać szczegółowe wskazówki), modlitw
+                Koronki do Miłosierdzia Bożego i&nbsp;Godziny Miłosierdzia [17],
+                ustanowienia święta Miłosierdzia Bożego (w&nbsp;pierwszą
+                niedzielę po Wielkanocy), szerzenia czci Miłosierdzia
+                i&nbsp;obietnic z&nbsp;nim związanych, oraz powołania do życia
+                nowego zgromadzenia, czyli takiego dzieła w&nbsp;Kościele, które
+                by podjęło zadanie wypraszania miłosierdzia dla świata
+                (Apostolski Ruch Bożego Miłosierdzia). Zapisała również
                 polecenie Jezusa Chrystusa żądającego, by zostało założone nowe
                 zgromadzenie głoszące na cały świat kult Miłosierdzia Bożego.
                 Zgromadzenie to miało również zrzeszać wszystkich świeckich
@@ -101,7 +98,7 @@ function Home() {
                 Bożego Miłosierdzia [5].
               </p>
               <br />
-              <p className="lg:px-10 sm:px-2">
+              <p className="lg:px-10 sm:px-2 lg:text-left sm:text-justify">
                 Objawienia, których doznała święta, dotyczyły przede wszystkim
                 roli Miłosierdzia Bożego w&nbsp;życiu duchowym człowieka oraz
                 szerzenia kultu tego przymiotu [16][4]. Jezus uczynił Faustynę
@@ -118,7 +115,7 @@ function Home() {
                 Miała doznawać ataków złych sił nadprzyrodzonych [22].
               </p>
               <br />
-              <p className="lg:px-10 sm:px-2">
+              <p className="lg:px-10 sm:px-2 lg:text-left sm:text-justify">
                 Kluczowe objawienie miało miejsce 22 lutego 1931 roku, w płockim
                 Sanktuarium Miłosierdzia Bożego. Jezus polecił jej wtedy
                 namalowanie obrazu z&nbsp;podpisem: „Jezu, ufam Tobie”. Według
